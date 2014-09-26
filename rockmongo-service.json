@@ -1,0 +1,10 @@
+{
+  "id": "rockmongo-service",
+  "kind": "Service",
+  "apiVersion": "v1beta2",
+  "port": 6060,
+  "containerPort": 80,
+  "selector": {
+    "name": "rockmongo-label"
+  }
+}
